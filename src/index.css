@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+.icotext {
+  font-size: 32px;
+}
+
+.posterbg {
+  background-image: url(./components/assests/poster2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.bggreen {
+  background-image: url(./components/assests/bggreen.jp.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgcon {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./components/assests/bgcon.png);
+}
+
+.pgfont, .fontpa {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.anim {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
