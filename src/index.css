@@ -27,6 +27,34 @@
   background-image: url(./components/assests/bgcon.png);
 }
 
+/* .pa-about {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.bg-text {
+  /* background-image: url(./components/assests/green0.jpeg); */
+  background: rgb(46, 102, 14);
+  background: radial-gradient(circle, rgba(46, 102, 14, 1) 0%, rgba(5, 34, 14, 1) 100%);
+  background-size: cover;
+  transition: all 2s;
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  bottom: 0%;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.actors img {
+  object-fit: cover;
+  border-radius: 100%;
+}
+
 .pgfont, .fontpa {
   font-family: 'Allerta Stencil', sans-serif;
 }

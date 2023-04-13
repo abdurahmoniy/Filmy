@@ -1,10 +1,7 @@
 import React from 'react'
 import { Routes, Route, useNavigate } from "react-router-dom";
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Home from './pages/Home'
 import Watch from './pages/Watch';
-import Aactor from './pages/Aactor';
-import Afilm from './pages/Afilm';
 import { Component } from 'react';
 import { videos } from './backend/consts';
 import Modal from './Modal';

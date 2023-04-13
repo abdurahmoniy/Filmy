@@ -622,11 +622,4 @@ export const videos = [
         image: '',
         url: 'http://uzmovi.com/play/e4y5z5x543r244b4v213q234r20443u2s2o4d4k4e494j434y5i5m4i4a4l484s2p4q4v5s5u4f40454l4r5n3x574i4r5j5r454c294x204l4k4x2'
     },
-    {
-        id: 90,
-        short: '90 - qism',
-        title: 'Panjara Ortida 90 - qism',
-        image: '',
-        url: ''
-    },
 ]

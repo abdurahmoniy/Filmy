@@ -2,7 +2,7 @@ export const styles = {
     flexStart: 'flex justify-center items-start',
     container: 'xl:max-w-[1700] w-full',
     paragraph: 'font-montserrat font-normal text-mylight text-[18px] leading-[30.8px]',
-    padX: 'sm:px-16 px-6',
+    padX: 'sm:px-16 px-0',
     padY: 'sm:py-16 py-6',
     pad: 'sm:px-16 px-6 sm:py-12 py-4',
     marX: 'sm:px-16 mx-6',
