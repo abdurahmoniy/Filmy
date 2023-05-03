@@ -18,20 +18,20 @@ const Modal = ({ show, item }) => {
                     <i className='fas fa-info px-4 py-1'></i>
                     <div className="mx-auto">Agar video o'zgarmayotgan bo'lsa sahifani yangilang yoki bu yerga bosing!</div>
                 </div>
-                {/* <video controls autoplay muted
+                <video controls autoplay muted
                     width='100%'
                     height='100%'
                     className="md:rounded-b-2xl "
                 >
                     <source src={vidurl} />
-                </video> */}
-                <Video autoPlay loop
-                    controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-                    onCanPlayThrough={() => {
+                </video> 
+//                 <video autoPlay loop
+//                     controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+//                     onCanPlayThrough={() => {
 
-                    }}>
-                    <source src={vidurl} type="video/webm" />
-                </Video>
+//                     }}>
+//                     <source src={vidurl} type="video/webm" />
+//                 </Video>
             </div>
             <div className="text-white fontpa text-[30px] my-2 mx-auto px-6 md:px-16">
                 {item.title}
